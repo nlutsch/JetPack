@@ -7,6 +7,8 @@ Project("{A9AC8BF8-6EF5-D6A5-1D7C-695FD15AA7A9}") = "JetPack", "Assembly-CSharp.
 EndProject
 Project("{A9AC8BF8-6EF5-D6A5-1D7C-695FD15AA7A9}") = "JetPack", "Assembly-CSharp-Editor.csproj", "{C2517695-0B82-3118-5A6F-7BBBD1D9C59F}"
 EndProject
+Project("{A9AC8BF8-6EF5-D6A5-1D7C-695FD15AA7A9}") = "JetPack", "Assembly-UnityScript.unityproj", "{DFA5E8CB-555B-3F1E-18A6-B19E4930BCFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,11 +27,15 @@ Global
 		{C2517695-0B82-3118-5A6F-7BBBD1D9C59F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2517695-0B82-3118-5A6F-7BBBD1D9C59F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2517695-0B82-3118-5A6F-7BBBD1D9C59F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA5E8CB-555B-3F1E-18A6-B19E4930BCFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA5E8CB-555B-3F1E-18A6-B19E4930BCFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA5E8CB-555B-3F1E-18A6-B19E4930BCFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA5E8CB-555B-3F1E-18A6-B19E4930BCFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+														GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -48,4 +54,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal

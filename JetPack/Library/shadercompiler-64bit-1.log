@@ -1,8 +1,3 @@
 Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-8100
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-16056
 Cmd: getPlatforms
-Cmd: preprocess
-  insize=3679 outsize=1913 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (100): 'vert': output parameter 'o' not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
-  api=4 type=0 insize=10228 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=0
