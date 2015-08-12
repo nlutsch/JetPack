@@ -3,20 +3,20 @@ using System.Collections;
 
 public class RThruster : MonoBehaviour
 {
-    public float Force = 10.0f;
-    public Rigidbody LeftThruster;
-    private Vector3 Direction = new Vector3(-.2f, 1, 0);
+    public float Force = 5.0f;
+    public Rigidbody RightThruster;
+    private Vector3 Direction = new Vector3(0, 10, 1);
 
     // Use this for initialization
     void Start ()
     {
-        LeftThruster = GetComponent<Rigidbody>();
+        RightThruster = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update ()
     {
-        if (Input.GetKeyDown(KeyCode.RightArrow))
-            LeftThruster.AddForce(Direction * Force, ForceMode.Impulse);
+        if (Input.GetKey(KeyCode.RightArrow))
+            RightThruster.AddForce(Direction * Force, ForceMode.Impulse);
     }
 }
